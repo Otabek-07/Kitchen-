@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1, h2 ,h3 , h4{
+    color: #151414 ;
+}
+
+.btn{
+    border: none;
+    background-color: #2C9553;
+    padding: 13.5px 29.5px;
+    border-radius: 27px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.btn:hover{
+    background-color: #494949;
+    cursor: pointer;
+}
+
+
+
+/***** HIDR QISMI BOSHLANDI**/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+
+}
+ header nav{
+    width: 100%;
+    align-items: center;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    background-color: #fff;
+}
+.heder__nav__left h1{
+    font-size: 26px;
+}
+.heder__nav__left__list{
+    list-style-type: none;
+    display: flex;
+     gap: 80px;
+}
+.heder__nav__left__list__item a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #787878;
+}
+.heder__nav__left__list__item a:hover{
+    color: #64BB47;
+    font-weight: 500;
+}
+.heder__nav__riht{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 280px;
+}
+ header nav .heder__nav__riht a button{
+    font-size: 20px;
+    padding: 14px 29.5px;
+}
+/***** HIDR QISMI TUGADI**/
+
+
+
+
+/*****O'RTA MAIN 1 QISIM BOSHLANDI****/
+.maintop__wrapper{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.maintop__wrapper__midl{
+    width: 620px !important;
+    padding-left: 50px;
+}
+
+#maintop .maintop__wrapper__midl h2{
+    width: 600px;
+    font-size: 71px;
+    line-height: 95px;
+}
+#maintop .maintop__wrapper__midl h2 span{
+    color: #64BB47;
+}
+
+
+#maintop .maintop__wrapper__midl p{
+    color:#181D19;
+    margin-top: 30px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 500;
+    width: 544px;
+}
+#maintop .maintop__wrapper__midl a button{
+    margin-top: 50px;
+}
+
+.banner-images{
+    position: relative;
+}
+.banner-images .imgtop1{
+    width: 860px;
+    height: 560px;
+    transform: rotate(5deg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.barg{
+    position: absolute;
+    right: 53px;
+    top: 20px;
+}
+
+
+/*****O'RTA MAIN 1 QISIM TUGADI****/
+
+
+/**** O'RTA MAIN 2 QISIM BOSHLANDI****/
+#chooseUs .chooseUs__wrapper{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#chooseUs .chooseUs__wrapper h2{
+    font-size: 54px;
+    margin-bottom: 15px;
+}
+
+#chooseUs .chooseUs__wrapper p{
+    font-size: 24px;
+    color: #3B433E;
+}
+#chooseUs .chooseUs__wrapper__card{
+    display: flex;
+    justify-content:space-evenly;
+}
+#chooseUs .chooseUs__wrapper__card__bloks{
+    margin-top: 62px;
+    max-width: 18%;
+}
+#chooseUs .chooseUs__wrapper__card__bloks h3{
+    font-size: 28px;
+    margin-top: 36px;
+}
+#chooseUs .chooseUs__wrapper__card__bloks p{
+    font-size: 18px;
+    color: #101612;
+    margin-top: 18px;
+    line-height: 28px;
+}
+#chooseUs .chooseUs__wrapper__card__nambr{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+#chooseUs .chooseUs__wrapper__card__nambr__card{
+    margin-top: 60px;
+}
+#chooseUs .chooseUs__wrapper__card__nambr__card h3{
+      font-size: 44px;
+      color:#000000;
+}
+#chooseUs .chooseUs__wrapper__card__nambr__card p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/**** O'RTA MAIN 2 QISIM TUGADI****/
+
+
+
+/****O'RTA MAEN 3 QISM BOSHLANDI***/
+
+#aboutUs .aboutUs__blok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 95px;
+}
+#aboutUs .aboutUs__blok__card h2{
+    font-size: 54px;
+}
+#aboutUs .aboutUs__blok__card p{
+    width: 500px;
+    font-size: 22px;
+    line-height: 34px;
+    color:#181D19;
+    margin: 30px 0 68px 0;
+}
+#aboutUs .aboutUs__blok__card__ong{
+    width: 640px;
+    display:flex;
+}
+#aboutUs .aboutUs__blok__card__ong__img1 img{
+    width: 310px;
+    height: 323px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#aboutUs .aboutUs__blok__card__ong__img2 img{
+    margin-top: 52px;
+    width: 310px;
+    height: 670px;
+}
+/****O'RTA MAEN 3 QISM TUGADI***/
+
+
+/*****O'RTA MAEN 4 QISM BOSHLANDI***/
+#fresh .fresh__blok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 69px;
+    padding-top: 120px;
+}
+#fresh .fresh__blok__cart__chap img{
+    max-width: 585px;
+}
+#fresh .fresh__blok__cart__ong{
+    max-width: 516px;
+    height: auto;
+}
+#fresh .fresh__blok__cart__ong h2{
+    font-size: 54px;
+    line-height: 67.5px;
+}
+#fresh .fresh__blok__cart__ong p{
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    max-width: 514px;
+    color:#181D19;
+}
+
+/*****O'RTA MAEN 4 QISM TUGADI***/
+
+
+
+/******** O'RTA MEAN 5 QISM BOSHLANDI***/
+#cooked .cooked__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 21.5px;
+    padding-top: 80px;
+}
+#cooked .cooked__wrapper__chap{
+    max-width: 500px;
+}
+#cooked .cooked__wrapper__chap h2{
+    font-size: 54px;
+    line-height: 67.5px;
+}
+#cooked .cooked__wrapper__chap p{
+    font-size: 22px;
+    color:#181D19;
+    line-height: 34px;
+    padding-top: 30px;
+}
+#cooked .cooked__wrapper__chap__fitichka{
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    margin-top: 30px;
+}
+#cooked .cooked__wrapper__chap__fitichka .pi{
+    padding: 0 0;
+    margin: 0 0;
+}
+#cooked .cooked__wrapper__chap__fitichka p{
+    font-size:20px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+    color:#181D19;
+}
+#cooked .cooked__wrapper__ong img{
+    max-width: 727.37px;
+}
+/******** O'RTA MEAN 5 QISM TUGADI***/
+
+
+
+/******* O'RTA MAEN 6 QISIM BOSHLANDI**/
+
+#specalDashis .specalDashis__blok{
+    width: 100%;
+    text-align: center;
+    padding-top: 140px;
+}
+#specalDashis .specalDashis__blok h2{
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+#specalDashis .specalDashis__blok p{
+    font-size: 24px;
+    margin-bottom: 60px;
+    color:#3B433E;
+}
+#specalDashis .specalDashis__bolk__carts{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 60px;
+}
+#specalDashis .specalDashis__blok__carts__cart{
+    max-width: 360px;
+    padding: 50px 25px;
+    border-radius: 20px;
+    border: 1px solid#EBEBEB;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#specalDashis .specalDashis__blok__carts__cart h3{
+    font-size: 30px;
+    margin-top: 27px;
+}
+#specalDashis .specalDashis__blok__carts__cart p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    color:#39463F;
+}
+#specalDashis .specalDashis__blok a button{
+    padding: 16px 63px;
+    background-color: #2C9553;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+#specalDashis .specalDashis__blok a button:hover{
+    background-color: #494949;
+    cursor: pointer;
+}
+/******* O'RTA MAEN 6 QISIM TUGADI**/
+
+
+
+/******O'RTA MEAN 7 QISM BOSHLANDI***/
+#heppyClents .heppyClents__blok{
+    width: 100%;
+    padding: 70px 0;
+    background-color:#FCFCFC;
+}
+#heppyClents .heppyClents__blok h2{
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 47px;
+}
+#heppyClents .heppyClents__blok__carts{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+#heppyClents .heppyClents__blok__carts__img{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 514px;
+    background-color: #FCFCFC;
+    padding: 30px 35px;
+    border-radius: 2px;
+}
+#heppyClents .heppyClents__blok__carts__img_blok{
+    display: flex;
+    column-gap: 37px;
+    align-items: center;
+}
+
+#heppyClents .heppyClents__blok__carts__img .p{
+     margin: 32px 0 64px 0;
+     font-size: 18px;
+     line-height: 30px;
+
+}
+#heppyClents .heppyClents__blok__carts__img h3{
+  font-size: 20px;
+  color:#333333;
+}
+#heppyClents .heppyClents__blok__carts__img p{
+  font-size: 14px;
+  margin-top: 3px;
+  color:#888A9A;
+}
+#heppyClents .heppClents__blok__ong__yonalish{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 18px;
+}
+/******O'RTA MEAN 7 QISM TUGADI***/
+
+
+/****** O'RTA MANE 8 QISM BOSHLANDI**/
+
+#sabscrip .sabscrip__blok{
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+#sabscrip .sabscrip__blok h2{
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+#sabscrip .sabscrip__blok p{
+    font-size: 24px;
+    color:#3B433E;
+    margin-bottom: 60px;
+}
+#sabscrip .sabacrip__blok__input .nam{
+    padding: 19px 166px 19px 20px;
+    border-radius: 165px;
+    border: 1.5px solid #F5F5F5;
+    margin-right: 15px;
+}
+/****** O'RTA MANE 8 QISM TUGADI**/
+
+
+/****** FUTER QISIM BOSHLANDI***/
+
+#futer .futer__blok{
+    width: 100%;
+    padding: 114px 0;
+}
+#futer .futer__blok__link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 115px;
+}
+#futer .futer__blok__link__bloks .eg{
+    margin-top: -20px;
+}
+#futer .futer__blok__link__bloks h4{
+    font-size: 22px;
+    color:#2C3847;
+    margin-bottom: 20px;
+}
+#futer .futer__blok__link__bloks p{
+    font-size: 16px;
+    color:#657582;
+    line-height: 20px;
+}
+#futer .futer__blok__link__bloks ul{
+    list-style-type: none;
+}
+#futer .futer__blok__link__bloks ul li a{
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-bottom: 12px;
+      color:#657582;
+}
+#futer .futer__futrs{
+    background-color:#2C9553;
+    margin: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+/****** FUTER QISIM TUGADI***/
+
+#blokFuter{
+    background-color: #2C9553;
+}
+#blokFuter .blokFuter__blok{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+}
